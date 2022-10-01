@@ -4,7 +4,7 @@
   "info": {
     "singularName": "post",
     "pluralName": "posts",
-    "displayName": "Post",
+    "displayName": "post",
     "description": ""
   },
   "options": {
@@ -12,23 +12,21 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true,
       "maxLength": 100,
       "unique": true
     },
-    "Content": {
+    "content": {
       "type": "richtext",
       "required": true
     },
-    "Illustration": {
+    "illustration": {
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "categories": {
       "type": "relation",
